@@ -1,0 +1,592 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libpcl_io_ply.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"PCL_ADD_LIBRARY",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"find_package",
+			"set_property",
+			"include",
+			"include_directories",
+			"PCL_SUBSYS_DEPEND",
+			"target_include_directories",
+			"PCL_ADD_GRABBER_DEPENDENCY"
+		],
+		"files" : 
+		[
+			"cmake/pcl_targets.cmake",
+			"io/CMakeLists.txt",
+			"cmake/Modules/FindQhull.cmake",
+			"CMakeLists.txt",
+			"/usr/lib/cmake/vtk-7.1/UseVTK.cmake",
+			"cmake/pcl_find_vtk.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 250,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 227,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 233,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 229,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 331,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 357,
+				"parent" : 8
+			},
+			{
+				"file" : 2,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 380,
+				"parent" : 8
+			},
+			{
+				"file" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 132,
+				"parent" : 13
+			},
+			{
+				"file" : 4,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 23,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 406,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 208,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 305,
+				"parent" : 8
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 320,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 844,
+				"parent" : 33
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 321,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 844,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 335,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-ftemplate-depth=1024 -Qunused-arguments -Wno-invalid-offsetof -march=native -msse4.2 -mfpmath=sse -fopenmp=libomp  -O2 -g -DNDEBUG -fPIC  "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fopenmp=libomp"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "PCLAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "PCL_BUILT_WITH_VTK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "qh_QHpointer"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkFiltersCore_AUTOINIT=1(vtkFiltersParallelDIY2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOImage_AUTOINIT=1(vtkIOMPIImage)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOParallel_AUTOINIT=1(vtkIOMPIParallel)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingLICOpenGL2_AUTOINIT=1(vtkRenderingParallelLIC)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/vtk-7.1"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/python3.8"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/hdf5/openmpi"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/jsoncpp"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/libxml2"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/tcl"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/divyanshu/proj/pcl/build/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/divyanshu/proj/pcl/common/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/divyanshu/proj/pcl/octree/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/divyanshu/proj/pcl/openni/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/divyanshu/proj/pcl/openni2/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/divyanshu/proj/pcl/ensenso/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/divyanshu/proj/pcl/davidSDK/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/divyanshu/proj/pcl/dssdk/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/divyanshu/proj/pcl/pcap/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/divyanshu/proj/pcl/png/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/divyanshu/proj/pcl/vtk/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/divyanshu/proj/pcl/libusb/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/divyanshu/proj/pcl/io/include"
+				},
+				{
+					"backtrace" : 32,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 34,
+					"isSystem" : true,
+					"path" : "/usr/include/ni"
+				},
+				{
+					"backtrace" : 36,
+					"isSystem" : true,
+					"path" : "/usr/include/openni2"
+				},
+				{
+					"backtrace" : 37,
+					"isSystem" : true,
+					"path" : "/home/divyanshu/proj/pcl/recognition/include/pcl/recognition/3rdparty"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Libraries"
+	},
+	"id" : "pcl_io_ply::@9998546b0f8df173ae92",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,::::::::::::::",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_iostreams.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/llvm-12/lib/libomp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpthread.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "pcl_io_ply",
+	"nameOnDisk" : "libpcl_io_ply.so",
+	"paths" : 
+	{
+		"build" : "io",
+		"source" : "io"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "io/src/ply/ply_parser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "io/include/pcl/io/ply/byte_order.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "io/include/pcl/io/ply/io_operators.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "io/include/pcl/io/ply/ply.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "io/include/pcl/io/ply/ply_parser.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

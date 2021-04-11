@@ -1,0 +1,585 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libpcl_stereo.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"PCL_ADD_LIBRARY",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"find_package",
+			"set_property",
+			"include",
+			"include_directories",
+			"PCL_SUBSYS_DEPEND",
+			"PCL_ADD_GRABBER_DEPENDENCY"
+		],
+		"files" : 
+		[
+			"cmake/pcl_targets.cmake",
+			"stereo/CMakeLists.txt",
+			"cmake/Modules/FindQhull.cmake",
+			"CMakeLists.txt",
+			"/usr/lib/cmake/vtk-7.1/UseVTK.cmake",
+			"cmake/pcl_find_vtk.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 250,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 227,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 233,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 229,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 357,
+				"parent" : 8
+			},
+			{
+				"file" : 2,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 380,
+				"parent" : 8
+			},
+			{
+				"file" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 132,
+				"parent" : 13
+			},
+			{
+				"file" : 4,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 23,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 406,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 305,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 320,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 844,
+				"parent" : 24
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 321,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 844,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 335,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-ftemplate-depth=1024 -Qunused-arguments -Wno-invalid-offsetof -march=native -msse4.2 -mfpmath=sse -fopenmp=libomp  -O2 -g -DNDEBUG -fPIC  "
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fopenmp=libomp"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "PCLAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "qh_QHpointer"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkFiltersCore_AUTOINIT=1(vtkFiltersParallelDIY2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOImage_AUTOINIT=1(vtkIOMPIImage)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOParallel_AUTOINIT=1(vtkIOMPIParallel)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingLICOpenGL2_AUTOINIT=1(vtkRenderingParallelLIC)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2)"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/vtk-7.1"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/python3.8"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/hdf5/openmpi"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/jsoncpp"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/libxml2"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/tcl"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/divyanshu/proj/pcl/build/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/divyanshu/proj/pcl/common/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/divyanshu/proj/pcl/io/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/divyanshu/proj/pcl/stereo/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 25,
+					"isSystem" : true,
+					"path" : "/usr/include/ni"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/usr/include/openni2"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "/home/divyanshu/proj/pcl/recognition/include/pcl/recognition/3rdparty"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "pcl_common::@bfc844598bd03e848b3c"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Libraries"
+	},
+	"id" : "pcl_stereo::@72b9d9328efca1c4949f",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/divyanshu/proj/pcl/build/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_iostreams.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../lib/libpcl_common.so.1.11.1.99",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_iostreams.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/llvm-12/lib/libomp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpthread.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "pcl_stereo",
+	"nameOnDisk" : "libpcl_stereo.so",
+	"paths" : 
+	{
+		"build" : "stereo",
+		"source" : "stereo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "stereo/src/stereo_grabber.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "stereo/src/stereo_matching.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "stereo/src/stereo_block_based.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "stereo/src/stereo_adaptive_cost_so.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "stereo/src/disparity_map_converter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "stereo/src/digital_elevation_map.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "stereo/include/pcl/stereo/stereo_grabber.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "stereo/include/pcl/stereo/stereo_matching.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "stereo/include/pcl/stereo/disparity_map_converter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "stereo/include/pcl/stereo/digital_elevation_map.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "stereo/include/pcl/stereo/impl/disparity_map_converter.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
